@@ -9,7 +9,7 @@ import json
 import csv
 import re
 
-
+# Initialize the app
 app = Flask(__name__)
 custom_response = CustomResponse()
 logging.basicConfig(filename=constants.ERROR_LOGFILE, filemode='a', format='%(name)s - %(levelname)s - %(message)s')
